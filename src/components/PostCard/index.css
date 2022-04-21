@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.post-card-list-container {
+  list-style-type: none;
+}
+.post-card-profile-row {
+  display: flex;
+  padding-left: 6px;
+  padding-bottom: 10px;
+}
+.post-card-profile-pic {
+  max-height: 40px;
+  min-height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.post-card-profile-bg-container {
+  background: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  color: #262626;
+}
+
+.post-card-image {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.transparent-btn {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.text-bold {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.post-card-gray-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05px;
+  color: #989898;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post-card-text {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 133% */
+
+  letter-spacing: -0.07px;
+
+  color: #262626;
+
+  padding-top: 8px;
+}
+.post-card-caption {
+  padding-left: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 133% */
+
+  letter-spacing: -0.07px;
+
+  color: #262626;
+
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .post-card-list-container {
+    width: 100%;
+    border: 1px solid #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  }
+  .post-card-image {
+    width: 100%;
+    padding-right: 20px;
+  }
+}

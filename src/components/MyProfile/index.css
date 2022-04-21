@@ -1,0 +1,280 @@
+.my-user-profile-main-con {
+  height: 100vh;
+  width: 100%;
+  background-color: #fafafa;
+}
+.username-mobile {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #262626;
+  padding: 10px;
+}
+.username-desktop {
+  display: none;
+}
+.username-main-desktop {
+  display: none;
+}
+.bio-desktop {
+  display: none;
+}
+.subCons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.my-image-followers-following-posts-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profilePic {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
+.count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #262626;
+  margin-top: -10px;
+  padding-bottom: 7px;
+}
+.subCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+.count-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  margin-top: -10px;
+}
+.username-main-mobile {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #262626;
+  padding: 10px;
+}
+.bio-mobile {
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 20px;
+  color: #262626;
+  padding-left: 10px;
+}
+
+.story-container {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.icon-heading-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.posts-icon {
+  width: 20px;
+  height: 20px;
+}
+.posts-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  padding-left: 10px;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+}
+.post-image {
+  height: 100%;
+  width: 100%;
+  padding-right: 4%;
+}
+.no-posts-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon-con {
+  width: 48px;
+  height: 48px;
+  left: 156px;
+  top: 444px;
+  border: 1.11628px solid #262626;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+.no-posts-icon {
+  background: #262626;
+  height: 27px;
+  width: 30px;
+}
+.no-posts-para {
+  width: 102px;
+  height: 24px;
+  left: 129px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262626;
+}
+.fail-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fail-image {
+  width: 260px;
+  height: 127px;
+}
+.fail-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.my-user-stories-container {
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-image-followers-following-posts-container {
+    padding-top: 30px;
+  }
+
+  .top-section {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .my-user-stories-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .post-image {
+    width: 100%;
+    height: 100%;
+    padding-right: 5%;
+  }
+  .desktop {
+    padding-left: 30px;
+  }
+  .line {
+    width: 90%;
+  }
+
+  .subCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my-user-profile-main-con {
+    height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profilePic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+
+  .username-desktop {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    color: #262626;
+  }
+
+  .bio-mobile {
+    display: none;
+  }
+
+  .bio-desktop {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: #262626;
+    font-weight: 400;
+  }
+
+  .username-mobile {
+    display: none;
+  }
+  .username-main-mobile {
+    display: none;
+  }
+
+  .story-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .count-heading {
+    font-size: 16px;
+  }
+  .storyImage {
+    width: 78px;
+    height: 78px;
+    margin-right: 25px;
+    border-radius: 40px;
+  }
+}
+.storyImage {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #c7c7cc;
+  box-sizing: border-box;
+  margin-right: 20px;
+  border-radius: 35px;
+}
+
+.my-profile-loader {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
